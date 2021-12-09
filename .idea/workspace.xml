@@ -5,19 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e31d880c-9b62-4707-8f96-8b639602acd9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/schedulerscreens/BaseScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/schedulerscreens/Homescreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/schedulerscreens/LoginScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/schedulerscreens/SplashScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/schedulerscreens/WizardScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/scheduler/LaunchAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/config/ConfigurationScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/models/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/schedulerscreens/BaseScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/schedulerscreens/HomeScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/schedulerscreens/LoginScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/schedulerscreens/SplashScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/main/java/schedulerscreens/WizardScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/test/java/scheduler/LaunchAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/test/java/scheduler/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/test/java/scheduler/TestMy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schedulerscreens/BaseScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schedulerscreens/BaseScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schedulerscreens/Homescreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schedulerscreens/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schedulerscreens/LoginScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schedulerscreens/SplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schedulerscreens/SplashScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/schedulerscreens/WizardScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/schedulerscreens/WizardScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +115,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
