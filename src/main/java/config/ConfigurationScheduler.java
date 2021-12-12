@@ -4,6 +4,8 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -14,7 +16,7 @@ import java.net.URL;
 public class ConfigurationScheduler {
 
     protected static AppiumDriver<MobileElement> driver;
-
+protected Logger logger = LoggerFactory.getLogger(ConfigurationScheduler.class);
 //    {
 //        "platformName": "Android",
 //            "deviceName": "Nex",
@@ -32,7 +34,7 @@ public class ConfigurationScheduler {
         capabilities.setCapability("appActivity", ".presentation.splashScreen.SplashScreenActivity");
 
         capabilities.setCapability("automationName", "Appium");
-        capabilities.setCapability("app","/Users/tayahatum/Tools/apk/v.0.0.3.apk");
+        capabilities.setCapability("app","Tools/v.0.0.3.apk");
 
         driver = new AppiumDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
 
