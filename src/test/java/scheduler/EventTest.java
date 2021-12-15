@@ -20,8 +20,8 @@ public class EventTest extends ConfigurationScheduler {
                 .isFabAddPresent();
     }
 
-    @Test
-    public void createNewEventTest(){
+    @Test(enabled = false)
+    public void createNewEventTest1(){
         boolean isfabAddPresent = new HomeScreen(driver)
                 .initCreationEvent()
                 .createNewEvent(Event.builder()
@@ -31,7 +31,26 @@ public class EventTest extends ConfigurationScheduler {
                         .wage(50).build())
                 .isFabAddPresent();
         Assert.assertTrue(isfabAddPresent);
-       // Assert.assertTrue(new HomeScreen(driver).isFabAddPresent());
+        // Assert.assertTrue(new HomeScreen(driver).isFabAddPresent());
+
+
+    }
+    @Test
+    public void createNewEventTest(){
+        boolean isLoginPresent = new HomeScreen(driver)
+                .initCreationEvent()
+                .createNewEvent(Event.builder()
+                        .title("Event")
+                        .type("new")
+                        .breaks(2)
+                        .wage(50).build())
+                .isFabAddPresentAssert()
+                .openMenu()
+                .logOut()
+                .isLoginButtonPresent();
+
+        Assert.assertTrue(isLoginPresent);
+        // Assert.assertTrue(new HomeScreen(driver).isFabAddPresent());
 
 
     }

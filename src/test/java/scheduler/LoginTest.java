@@ -1,6 +1,7 @@
 package scheduler;
 
 import config.ConfigurationScheduler;
+import config.DataProviderMy;
 import models.Auth;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -45,6 +46,17 @@ public class LoginTest extends ConfigurationScheduler {
                         .isFabAddPresent();
         Assert.assertTrue(isFabPresent);
 
+    }
+    @Test(dataProvider = "loginData", dataProviderClass = DataProviderMy.class)
+    public void loginAuthTestDP(Auth auth){
+       boolean isBTN = new LoginScreen(driver)
+                .loginComplex(auth)
+                .skipWizard()
+               .isFabAddPresentAssert()
+                .openMenu()
+                .logOut()
+                .isLoginButtonPresent();
+        Assert.assertTrue(isBTN);
     }
 
     @Test
