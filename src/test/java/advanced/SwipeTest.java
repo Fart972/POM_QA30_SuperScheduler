@@ -22,4 +22,10 @@ public class SwipeTests extends ConfigAdvanced {
                 .selectSwipeableBasic()
                 .swipeFromRightToLeft();
     }
+    @Test
+    public void swipeVertical(){
+        new DragScreen(driver)
+                .selectSwipe()
+                .selectVertical()
+                .swipeToDown();
 }
