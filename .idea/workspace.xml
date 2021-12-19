@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd35663c-3254-4e78-9f75-7f3521138f81" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/advancedscreens/SwipeableBasicVerticalScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/advancedscreens/DragScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advancedscreens/DragScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/advancedscreens/SwipeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advancedscreens/SwipeScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/advanced/SwipeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/advanced/SwipeTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="bd35663c-3254-4e78-9f75-7f3521138f81" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
